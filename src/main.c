@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 
   script = LoadFile(script, argv[1]);
 
-  ExecuteScript(program, script);
+  ExecuteScript(program, script, 0);
 
   return 0;
 }

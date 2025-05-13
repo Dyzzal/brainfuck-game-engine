@@ -1,4 +1,4 @@
-# Build directory
+SRC_DIR ?= src/
 make:
 	#mkdir bin
-	gcc bf.c main.c -o bin/bf 
+	gcc $(SRC_DIR)bf.c $(SRC_DIR)main.c -o bin/bf 
